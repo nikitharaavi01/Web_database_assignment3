@@ -1,0 +1,115 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    display: grid;
+    grid-template-columns: 1fr;
+    padding: 20px;
+    width: 80%;
+    margin: 20px auto;
+    border-radius: 20px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    background-color:#E3F2FD ;
+}
+nav{
+    background-color: #E3F2FD;
+}
+.about{
+    background-color: #BBDEFB;
+}
+.ni{
+    display: flex;
+}
+.name{
+    text-align:center;
+    /* width:50%; */
+    margin-left: 100px;
+    margin-top: 50px;
+    
+}
+.image{
+    float:left;
+    padding-top:10px;
+    padding-right:10px;
+    padding-bottom:10px;
+    padding-left:100px
+   
+}
+.Obj{
+    background-color: #90CAF9;
+}
+.skills{
+    background-color: #64B5F6;
+}
+.projects {
+    /* width: 250px; */
+    padding: 10px;
+    /* border: 2px solid black; */
+    background-color: #42A5F5;
+    /* border-radius: 20px; */
+    box-sizing: border-box;
+}
+.project {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin-bottom: 10px;
+        /* border: 2px solid black; */
+    }
+    .year {
+        flex: 1;
+        text-align: left;
+        padding-left: 10px;
+    }
+    /* .divider {
+        width: 2px;
+        height: 40px;
+        background: black;
+        margin: 0 200px;
+    } */
+    /* .np{
+        text-align: center;
+        justify-content: center;
+        align-items: center;
+
+    } */
+    .np {
+        flex: 1;
+        text-align: center;
+        padding-right: 20px;
+    }
+
+    .Education{
+        background-color: #2196F3;
+    }
+    .Interest{
+        background-color: #1E88E5;
+
+    }
+    footer{
+        background-color: #1976D2;
+    }
+
+
+    @media only screen and (max-width: 500px) {
+        nav li {
+          display: block;
+          margin: 0; 
+          /* grid-template-columns: 1fr; */
+        }
+      
+        main {
+          flex-direction: column; 
+        }
+      
+        aside {
+          padding: 0;
+          
+          /* padding-right: 20px;padding-left: 10px; */
+        }
+      }
+      
+      
